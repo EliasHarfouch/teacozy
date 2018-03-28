@@ -1,0 +1,44 @@
+html   {background-color: grey; }
+
+
+
+
+
+header {
+
+        display: flex;
+        height: 69px;
+        padding-left: 10px;
+        position: fixed;
+        z-index: 1;
+        border-bottom: 1px solid seashell;
+        width: 100%;
+        align-items: center;
+
+}
+
+header nav a
+{
+
+text-decoration: underline;
+margin-right: 30px;
+
+
+}
+
+
+.logo {
+
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+
+}
+
+
+.logo img
+{
+   height: 50px;
+   padding-left: 10px;
+}
