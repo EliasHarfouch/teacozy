@@ -74,10 +74,10 @@ color: white;
 {
 
 background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
-background-size: cover;
-background-position: center;
-height: 800px;
-width: 100%;
+height: 700px;
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .mission
@@ -124,24 +124,48 @@ width: 300px;
 }
 
 .lower-section
-
 {
-
-
-
-
 
 }
 
+
+
+
+
+
 .location-image
 {
-
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
-  height: 500px;
+  height: 700px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
 
+.location-image .downtown
 
+{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+.location-image .east-bayside
+
+{
+
+  height:300px;
+  width: 300px;
+  background-color: black;
+
+}
+
+.location-image .oakdale
+
+{
+
+  height: 300px;
+  width: 300px;
+  background-color: black;
 
 }
