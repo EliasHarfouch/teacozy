@@ -7,6 +7,7 @@ body
   color: seashell;
   opacity: 0.9;
   text-align: center;
+  font-size: 22px;
 
  }
 
@@ -24,6 +25,7 @@ header {
         border-bottom: 1px solid seashell;
         width: 100%;
         align-items: center;
+        padding-bottom: 10px;
 
 
 }
@@ -33,6 +35,7 @@ header nav a
 
 text-decoration: underline;
 margin-right: 30px;
+color: white;
 
 
 }
@@ -63,6 +66,7 @@ margin-right: 30px;
   display: flex;
   padding-top: 80px;
 
+
 }
 
 
@@ -80,10 +84,64 @@ width: 100%;
 
 {
   display: block;
+  justify-content: center;
   height: 100px;
   width: 100%;
   background-color: black;
-  text-align: center;
-  
+
+}
+
+
+.middle-section
+
+{
+
+display: flex;
+flex-direction: row;
+margin-top: 100px;
+
+
+
+}
+
+.Teas
+
+{
+
+display: flex;
+align-text: center;
+
+}
+
+
+img.offering
+
+{
+
+height: 200px;
+width: 300px;
+
+}
+
+.lower-section
+
+{
+
+
+
+
+
+}
+
+.location-image
+{
+
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+
 
 }
