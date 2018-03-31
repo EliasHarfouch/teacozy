@@ -24,8 +24,11 @@ header {
         z-index: 1;
         border-bottom: 1px solid seashell;
         width: 100%;
+          left: 0; right: 0;
+          top: 0;
         align-items: center;
         padding-bottom: 10px;
+        background-color: black; 
 
 
 }
@@ -65,8 +68,6 @@ color: white;
 
   display: flex;
   padding-top: 80px;
-
-
 }
 
 
@@ -74,18 +75,21 @@ color: white;
 {
 
 background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+position: relative;
 height: 700px;
 width: 1200px;
 margin-left: auto;
 margin-right: auto;
 }
 
-.mission
+.purpose
 
 {
   display: block;
-  justify-content: center;
+  position: relative;
+  top: 50%;
   height: 100px;
+  margin-top: -50px;
   width: 100%;
   background-color: black;
 
@@ -98,21 +102,23 @@ margin-right: auto;
 
 display: flex;
 flex-direction: row;
-margin-top: 100px;
+justify-content: center;
 
 
 
 }
 
-.Teas
+.middle-section .flavor
 
 {
-
 display: flex;
-align-text: center;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+width: 1000px;
+align-items: center;
 
 }
-
 
 img.offering
 
@@ -125,47 +131,76 @@ width: 300px;
 
 .lower-section
 {
+  display: flex;
+  justify-content: center;
 
 }
 
 
-
-
-
-
-.location-image
+.location
 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
-  height: 700px;
+  height: 500px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.location-image .downtown
-
-{
-  height: 300px;
-  width: 300px;
-  background-color: black;
-}
-
-.location-image .east-bayside
-
-{
-
-  height:300px;
-  width: 300px;
-  background-color: black;
+  padding-bottom: 80px;
 
 }
 
-.location-image .oakdale
+
+.location .downtown
+
+{
+  height: 280px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+.location .east-bayside
 
 {
 
-  height: 300px;
+  height: 280px;
   width: 300px;
   background-color: black;
+
+}
+
+.location .oakdale
+
+{
+
+  height: 280px;
+  width: 300px;
+  background-color: black;
+
+
+
+}
+
+.contact
+
+{
+
+height: 200px;
+
+}
+
+
+
+footer
+
+{
+
+text-align: left;
+margin-left: 20px;
+
+
 
 }
